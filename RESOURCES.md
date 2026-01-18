@@ -1,7 +1,5 @@
 # Resources File
 
-This file will be used for the exercises in this course. I'll include links that are discussed in each video.
-
 ## 01_01 Installing Playwright
 
 - [Learning Playwright Branch 01_01b](https://github.com/LinkedInLearning/learning-playwright-5911873/tree/01_01b)
