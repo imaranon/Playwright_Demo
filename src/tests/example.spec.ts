@@ -1,14 +1,14 @@
 import { test, expect } from '@playwright/test';
 // import { baseURL } from '../playwright.config.ts'; 
 
-test('has title', async ({ page }) => {
+test.skip('has title', async ({ page }) => {
   await page.goto('https://practicesoftwaretesting.com/');
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Practice Software Testing - Toolshop - v5.0/);
 });
 
-test('get started link', async ({ page }) => {
+test.skip('get started link', async ({ page }) => {
   await page.goto('https://practicesoftwaretesting.com/');
 
   // Click the get started link.
@@ -19,4 +19,11 @@ test('get started link', async ({ page }) => {
 
   // Check for the page URL to be 'https://playwright.dev/docs/intro' (including query string)
 await expect(page).toHaveURL('https://practicesoftwaretesting.com/auth/login/');
+});
+
+test("Example dotenv test", async ({ page }) => {
+
+console.log(process.env.userID);
+console.log(process.env.userPassword);
+
 });

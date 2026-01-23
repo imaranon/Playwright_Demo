@@ -36,5 +36,15 @@
   - [ ] Configure CI
 
 
+## Git basic command
+### Local Repo -> Remote repo
+1. git init
+2. git remote add origin
+3. git add .
+4. git commit -m "your description"
+5. git branch -M main
+6. git push -u origin main
+7. create a .gitignore (auto create by the Playwright package if selected)
 
-
+### Remote repo --> Local repo
+1. git clone "github url"
